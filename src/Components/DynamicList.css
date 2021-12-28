@@ -1,0 +1,38 @@
+.all-task {
+    display: block;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 30px auto 20px;
+    width: 70%;
+    background-color: var(--green);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.task {
+    background-color: var(--drk-green);
+    margin: 20px 0;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    color: var(--lte-green-txt);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+h2 {
+    color: #10150e;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .all-task {
+        width: 90%;
+    }
+}

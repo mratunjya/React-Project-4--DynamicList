@@ -1,0 +1,81 @@
+form {
+    width: 70%;
+    box-sizing: border-box;
+    margin: 40px auto 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-skin);
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #18140e;
+    margin-bottom: 20px;
+}
+
+.all-input {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    width: 45%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: var(--lte-green-txt);
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px 20px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #f39892;
+    font-weight: bold;
+    color: #180f0e;
+    font-size: 22px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+button:focus {
+    outline-color: #180f0e;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    .all-input {
+        flex-direction: column;
+    }
+
+    input {
+        width: 100%;
+    }
+}
